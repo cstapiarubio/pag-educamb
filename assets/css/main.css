@@ -1,0 +1,31 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: 'Libre Baskerville', serif;
+}
+
+/* Diseño sección NAV BOOTSTRAP*/
+
+nav{
+	background: linear-gradient(to bottom, #C4F364, #42E898, #29EB6A);
+	height: 140px;
+}
+
+nav img{
+	width: 90px;
+	margin-top: 0;
+}
+
+nav ul a{
+	margin-left: 85px;
+	margin-right: 25px;
+}
+
+nav form{
+	margin-left: 25px;
+	float: right;
+}
+
+#navbarSupportedContent{
+	margin-top: 25px;
+}
