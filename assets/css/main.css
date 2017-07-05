@@ -8,6 +8,7 @@
 
 nav{
 	background: linear-gradient(to bottom, #C4F364, #42E898, #29EB6A);
+	background-image: url(../img/12.jpg);
 	height: 140px;
 }
 
@@ -35,13 +36,13 @@ nav form{
 /*Diseño de somos*/
 #somos{
   padding-top: 80px;
-  background-color:#F0F6FA;
+  background-color:#6EEC98;
 }
 
 #somos:hover,
 #mision:hover,
 #vision:hover{
-  background-color: #A2A2AF;
+  background-color: #C7F366;
 }
 
 #mision,
@@ -63,7 +64,7 @@ nav form{
 
 /*Sección nuestros trabajos (carousel)*/
 #trabajos{
-  background-color: #1770A4;
+  background-color: #127C5A;
 }
 
 
@@ -82,7 +83,7 @@ nav form{
 /*Sección servicios*/
 
 #hacemos{
-  background-color:#F0F6FA;
+  background-color:#6EEC98;
 }
 
 #hacemos p, 
@@ -95,7 +96,7 @@ nav form{
   text-align: center;
 }
 
-#gasfiteria img, 
+#lombricultura img, 
 #huertos img,
 #reciclaje img{
   width:95px;
@@ -117,7 +118,7 @@ nav form{
 /*Sección contacto*/
 
 #contacto{
-  background-color: #1770A4;
+  background-color: #127C5A;
 }
 
 #contacto p{
@@ -149,7 +150,7 @@ nav form{
 
 #pie-pag
 {
-	background-color:#F0F6FA;
+	background-color:#6EEC98;
   height: 80px;
 
 }
