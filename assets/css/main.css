@@ -19,6 +19,7 @@ nav img{
 nav ul a{
 	margin-left: 85px;
 	margin-right: 25px;
+	font-size: 20px;
 }
 
 nav form{
@@ -29,3 +30,133 @@ nav form{
 #navbarSupportedContent{
 	margin-top: 25px;
 }
+
+
+/*Diseño de somos*/
+#somos{
+  padding-top: 80px;
+  background-color:#F0F6FA;
+}
+
+#somos:hover,
+#mision:hover,
+#vision:hover{
+  background-color: #A2A2AF;
+}
+
+#mision,
+#vision{
+  width: 400px;
+  display:inline-block;
+  padding: 20px;
+  margin-left: 150px;
+}
+
+#somos p{
+  margin-left: 150px;
+}
+
+#somos h1{
+  font-size: 206%;
+  text-align: center;
+}
+
+/*Sección nuestros trabajos (carousel)*/
+#trabajos{
+  background-color: #1770A4;
+}
+
+
+ #trabajos h1{
+	font-size: 206%;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.flex-caption p{
+  font-size: 169%; 
+   background-color: #75A4AB; 
+   color: whitesmoke;
+}
+
+/*Sección servicios*/
+
+#hacemos{
+  background-color:#F0F6FA;
+}
+
+#hacemos p, 
+#hacemos ul li{
+  font-size: 15px;
+}
+
+#hacemos h1{
+  font-size: 206%;
+  text-align: center;
+}
+
+#gasfiteria img, 
+#huertos img,
+#reciclaje img{
+  width:95px;
+  height:70px;
+  border-radius:50%;
+  margin-left: 50px;
+}
+
+
+#lombricultura,
+#huertos,
+#reciclaje{
+  width: 250px;
+  display:inline-block;
+  padding: 20px;
+  margin-left: 150px;
+}
+
+/*Sección contacto*/
+
+#contacto{
+  background-color: #1770A4;
+}
+
+#contacto p{
+  text-align: center;
+  padding: 10px;
+  color: whitesmoke;
+}
+
+#contacto i{
+  margin-left: 180px;
+  color: whitesmoke;
+}
+
+#mail,
+#fono{
+  width: 400px;
+  display:inline-block;
+  margin-left: 200px;
+}
+
+#contacto h1{
+  font-size: 206%;
+  text-align: center;
+  color: whitesmoke;
+}
+
+
+/*Sección footer*/
+
+#pie-pag
+{
+	background-color:#F0F6FA;
+  height: 80px;
+
+}
+
+#pie-pag p{
+  padding-top: 15px;
+  text-align: center;
+}
+
+

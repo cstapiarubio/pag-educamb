@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
+	<meta charset="utf-8">
 	<title>Educación ambiental</title>
 	<!--font-family-->
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
@@ -10,37 +10,213 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- CDN bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 	<!-- Font Awesome -->
 	<script src="https://use.fontawesome.com/2c0c95ddaa.js"></script>
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/media.css">
 </head>
+
 <body>
 
-<!--Sección NAV BOOTSTRAP-->
+	<!--Sección NAV BOOTSTRAP-->
 
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-   <a class="navbar-brand" href="#">
-    <img src="assets/img/logo1.png" alt="">
-  </a>
-    <ul class="navbar-nav mr-auto">
-     
-        <a class="nav-link" href="#">Quiénes Somos<span class="sr-only">(current)</span></a>
-  
-        <a class="nav-link" href="#">Qué Hacemos</a>
+	<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<a class="navbar-brand" href="#">
+				<img src="assets/img/logo1.png" alt="">
+			</a>
+			<ul class="navbar-nav mr-auto">
+				
+				<a class="nav-link" href="#">Quiénes Somos<span class="sr-only">(current)</span></a>
 
-        <a class="nav-link disabled" href="#">Contáctanos</a>
-    </ul>
-    
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-    </form>
-  </div>
-</nav>
+				<a class="nav-link" href="#">Nuestro trabajo</a>
 
+				<a class="nav-link" href="#">Qué Hacemos</a>
+
+				<a class="nav-link disabled" href="#">Contáctanos</a>
+			</ul>
+
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="text" placeholder="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+			</form>
+		</div>
+	</nav>
+
+	<!-- Sección quienes somos-->
+	<section id="somos">
+		<div class="container-fluid">
+
+			<div class="row">
+				<div class="col-md-12" id="somos">
+					<h1>¿Quiénes somos?</h1>
+					<p>Somos profesionales del área de la agronomía dedicados a fomentar la educación ambiental a niños y niñas</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6" id="mision">
+					<h1>Misión</h1>
+					<p>Transmitir y fomentar a niños y niñas los conocimientos y actitudes que les permitan valorazr y cuidar el medioambiente</p>
+				</div>
+
+				<div class="col-md-6" id="vision">
+					<h1>Visión</h1>
+					<p>Formar a ciudadanos responsables con conciencia medioambiental</p>
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+
+	<!--Sección nuestro trabajo (CARRUSEL BOOTSTRAP)-->
+
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="assets/img/logo2.png" alt="Los Angeles">
+				<section class="flex-caption"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p></section>
+			</div>
+
+			<div class="item">
+				<img src="assets/img/logo3.png" alt="Chicago">
+				<section class="flex-caption"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p></section>
+			</div>
+
+			<div class="item">
+				<img src="assets/img/logo4.png" alt="New York">
+				<section class="flex-caption"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p></section>
+			</div>
+		</div>
+
+		<!-- Left and right controls -->
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+			<span class="sr-only">Anterior</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+			<span class="sr-only">Siguiente</span>
+		</a>
+	</div>
+
+	<!-- Sección que hacemos-->
+	<section id="hacemos">
+		<div class="container-fluid">
+
+			<div class="row">
+				<div class="col-md-12">
+					<h1>¿Qué hacemos?<h1>
+						<p>Ofrecemos talleres mediambientales enfocados a niños y niñas de enseñanza parvularia y básica</p>
+						<p>Nuestros talleres:</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4" id="lombricultura">
+						<img src="assets/img/ceramica.jpg">
+						<h1>Lombricultura<h1>
+							<ul>
+								<li>Arreglo y mantención de calefonts</li>
+								<li>Arreglo e instalación de lavadoras</li>
+								<li>Montaje de paneles para equipos termosolares</li>
+								<li>Excepteur sint occaecat cupidatat non</li>
+								<li>proident, sunt in culpa qui officia deserunt mollit anim id est laborum</li>
+							</ul>
+						</div>
+
+
+						<div class="col-md-4" id="huertos">
+							<img src="assets/img/ladrillo1.jpg">
+							<h1>Huertos<h1>
+								<ul>
+									<li>Instalación de cerámica, porcelanatos y piso flotante</li>
+									<li>Construcción de techumbres con tejas asfálticas</li>
+									<li>Instalación de artefactos sanitarios</li>
+									<li>Construcción de radiers</li>
+									<li>voluptate velit esse
+										cillum dolore</li>
+									<li>eu fugiat nulla pariatur.</li>
+								</ul>
+							</div>
+
+							<div class="col-md-4" id="reciclaje">
+								<img src="assets/img/color.jpg">
+								<h1>Reciclaje<h1>
+									<ul>
+										<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+										<li> sed do eiusmod
+										tempor incididunt ut labore</li>
+										<li>et dolore magna aliqua. Ut enim ad minim veniam</li>
+										<li>
+										quis nostrud exercitation ullamco laboris</li>
+										<li>nisi ut aliquip ex ea commodo
+										consequat.</li>
+										<li>Duis aute irure dolor in reprehenderit in</li>
+									</ul>
+								</div>
+
+							</div>
+
+						</div>
+					</section>
+
+					<!--sección contacto-->
+					<section id="contacto">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-12">
+									<h1>Contacto</h1>
+									<p>Nuestro horario de atención es: Lunes a sábado de 10 a 19 hrs</p>
+									<p>Contáctenos para solicitar más detalles de nuestros servicios al:</p>
+								</div>
+								<div class="row">
+									<div class="col-md-6" id="fono">
+									<i class="fa fa-phone" aria-hidden="true"></i>
+										<p>978005241</p>
+									</div>
+									<div class="col-md-6" id="mail">
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+										<p>cstapiarubio@gmail.com</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</section>
+
+					<!-- sección footer-->
+
+					<footer id="pie-pag">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-12">
+									<p>PÁGINA DESARROLLADA BY CAROLINA SOL 2017</p>
+								</div>
+							</div>
+						</div>
+					</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--CDN bootstrap js-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!--js-->
 <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
+
+
+
+						
+
+				
